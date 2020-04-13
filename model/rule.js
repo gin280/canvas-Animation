@@ -46,7 +46,7 @@ class Rule {
             mx: 0,
             my: 0,
             lx: 0,
-            ly = 5,
+            ly: 5,
             color: 'red',
             isDrawRedLine: true
         }, lineRed)
@@ -104,3 +104,5 @@ class Rule {
         }
     }
 }
+
+export default Rule
