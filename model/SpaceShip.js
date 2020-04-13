@@ -9,7 +9,7 @@ class SpaceShip {
         this.showFlame = false
     }
 
-    draw() {
+    draw(context) {
         context.save()
         context.beginPath()
         context.translate(this.x, this.y)
@@ -36,3 +36,5 @@ class SpaceShip {
     }
 
 }
+
+export default SpaceShip
